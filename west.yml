@@ -99,8 +99,8 @@ manifest:
     # Some of these are also Zephyr modules which have NCS-specific
     # changes.
     - name: mcuboot
-      url: https://github.com/vilaneuf/mcuboot
-      revision: main #v1.9.99-ncs1-rc2
+      url: https://github.com/vilaneuf/sdk-mcuboot.git
+      revision: v1.9.99-test
       path: bootloader/mcuboot
     - name: mbedtls-nrf
       path: mbedtls
